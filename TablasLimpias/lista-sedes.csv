@@ -1,0 +1,165 @@
+sede_id,sede_desc_castellano,pais_iso_3,pais_castellano
+CALEG,Consulado  General  en  Porto  Alegre,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CANTO,Consulado  en  Antofagasta,CHL,REPÚBLICA  DE  CHILE
+CAREN,Consulado  General  en  Punta  Arenas,CHL,REPÚBLICA  DE  CHILE
+CASUN,Consulado  General  en  Asunción,PRY,REPÚBLICA  DEL  PARAGUAY
+CATLA,Consulado  General  en  Atlanta,USA,ESTADOS UNIDOS DE AMÉRICA
+CBARC,Consulado  General  y  Centro  de  Promoción  en  Barcelona,ESP,REINO  DE  ESPAÑA
+CBEIJ,Sección  Consular  en  Beijing,CHN,REPÚBLICA  POPULAR  DE  CHINA
+CBELO,Consulado  General  en  Belo  Horizonte,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CBONN,Consulado  en  Bonn,DEU,REPÚBLICA  FEDERAL  DE  ALEMANIA
+CCADI,Consulado  en  Cádiz,ESP,REINO  DE  ESPAÑA
+CCEST,Consulado  General  en  Ciudad  del  Este,PRY,REPÚBLICA  DEL  PARAGUAY
+CCHIC,Consulado  General  en  Chicago,USA,ESTADOS UNIDOS DE AMÉRICA
+CCOCH,Consulado  en  Cochabamba,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+CCOLO,Consulado  en  Colonia,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CCONC,Consulado  en  Concepción,CHL,REPÚBLICA  DE  CHILE
+CCURI,Consulado  en  Curitiba,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CENCA,Consulado  General  en  Encarnación,PRY,REPÚBLICA  DEL  PARAGUAY
+CFBEN,Consulado  en  Fray  Bentos,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CFDIG,Consulado  en  Foz  de  Iguazu,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CFLOR,Consulado  en  Florianopolis,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CFRAN,Consulado  General  y  Centro  de  Promoción  en  Francfort,DEU,REPÚBLICA  FEDERAL  DE  ALEMANIA
+CGEST,Consulado  General  y  Centro  de  Promoción  en  Estambul,TUR,REPÚBLICA DE TÜRKİYE
+CGMUM,Consulado  General  y  Centro  de  Promoción  en  Mumbai,IND,REPÚBLICA  DE  LA  INDIA
+CGPAZ,Consulado  General  en  La  Paz,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+CGTEL,Consulado  General  en  Tel  Aviv,ISR,ESTADO  DE  ISRAEL
+CGUAN,Consulado  General  en  Guangzhou,CHN,REPÚBLICA  POPULAR  DE  CHINA
+CGUAY,Consulado  en  Guayaquil,ECU,REPÚBLICA  DEL  ECUADOR
+CGVAN,Consulado  General  en  Vancouver,CAN,CANADÁ
+CHAMB,Consulado  General  en  Hamburgo,DEU,REPÚBLICA  FEDERAL  DE  ALEMANIA
+CHONG,Consulado  General  en  Hong  Kong,CHN,REPÚBLICA  POPULAR  DE  CHINA
+CHOUS,Consulado  General  en  Houston,USA,Estados  Unidos  de  América
+CJOHA,Consulado  General  en  Johannesburgo,ZAF,REPÚBLICA  DE  SUDÁFRICA
+CLANG,Consulado  General  y  Centro  de  Promoción  en  Los  Ángeles,USA,ESTADOS UNIDOS DE AMÉRICA
+CLIMA,Consulado  General  en  Lima,PER,REPÚBLICA  DEL  PERÚ
+CLOND,Consulado  General  en  Londres,GRB,REINO  UNIDO  DE  GRAN  BRETAÑA  E  IRLANDA  DEL  NORTE
+CMADR,Consulado  General  en  Madrid,ESP,REINO  DE  ESPAÑA
+CMALD,Consulado  en  Maldonado,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CMALL,Consulado  en  Palma,ESP,REINO  DE  ESPAÑA
+CMDEO,Consulado  General  en  Montevideo,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CMEXI,Consulado  General  en  México,MEX,ESTADOS  UNIDOS  MEXICANOS
+CMIAM,Consulado  General  y  Centro  de  Promoción  en  Miami,USA,ESTADOS UNIDOS DE AMÉRICA
+CMILA,Consulado  General  y  Centro  de  Promoción  en  Milán,ITA,REPÚBLICA  ITALIANA
+CMREA,Consulado  General  en  Montreal,CAN,CANADÁ
+CNYOR,Consulado  General  y  Centro  de  Promoción  en  Nueva  York,USA,ESTADOS UNIDOS DE AMÉRICA
+CPABL,Consulado  General  y  Centro  de  Promoción  en  San  Pablo,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CPAYS,Consulado  en  Paysandú,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CPCAR,Consulado  en  Playa  del  Carmen,MEX,ESTADOS  UNIDOS  MEXICANOS
+CPMON,Consulado  en  Puerto  Montt,CHL,REPÚBLICA  DE  CHILE
+CRECI,Consulado  en  Recife,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CRIOJ,Consulado  General  en  Rio  de  Janeiro,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CROMA,Consulado  General  en  Roma,ITA,REPÚBLICA  ITALIANA
+CSBAH,Consulado  en  Salvador  de  Bahía,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CSCRS,Consulado  General  y  Centro  de  Promoción  en  Santa  Cruz,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+CSHAN,Consulado  General  y  Centro  de  Promoción  en  Shanghái,CHN,REPÚBLICA  POPULAR  DE  CHINA
+CSIDN,Consulado  General  en  Sidney,AUS,AUSTRALIA
+CSIGO,Consulado  General  en  Santiago,CHL,REPÚBLICA  DE  CHILE
+CSLTO,Consulado  en  Salto,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+CTARI,Consulado  General  en  Tarija,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+CTENE,Consulado  en  Tenerife,ESP,REINO  DE  ESPAÑA
+CTORO,Consulado  General  en  Toronto,CAN,CANADÁ
+CURUG,Consulado  en  Uruguayana,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+CVALP,Consulado  General  en  Valparaíso,CHL,REPÚBLICA  DE  CHILE
+CVIGO,Consulado  General  en  Vigo,ESP,REINO  DE  ESPAÑA
+CVILL,Consulado  en  Villazon,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+CYACU,Consulado  en  Yacuiba,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+DIGAC,Argentinos  en  el  exterior,ARG,REPÚBLICA  ARGENTINA
+EALEM,Embajada  en  Alemania,DEU,REPÚBLICA  FEDERAL  DE  ALEMANIA
+EANGO,Embajada  en  Angola,AGO,REPÚBLICA  DE  ANGOLA
+EARAB,Embajada  en  Arabia  Saudita,SAU,REINO  DE  ARABIA  SAUDITA
+EARGE,Embajada  en  Argelia,DZA,REPÚBLICA  ARGELINA  DEMOCRÁTICA  Y  POPULAR
+EARME,Embajada  en  Armenia,ARM,REPÚBLICA  DE  ARMENIA
+EASIR,Embajada  en  Siria,SYR,REPÚBLICA  ÁRABE  SIRIA
+EAUST,Embajada  en  Australia,AUS,AUSTRALIA
+EAZER,Embajada  en  Azerbaiyán,AZE,REPÚBLICA  DE  AZERBAIYÁN
+EBANG,Embajada  en  Bangladesh,BGD,REPÚBLICA  POPULAR  DE  BANGLADESH
+EBARB,Embajada  en  Barbados,BRB,BARBADOS
+EBELG,Embajada  en  Bélgica,BEL,REINO DE BÉLGICA
+EBOLV,Embajada  en  Bolivia,BOL,ESTADO  PLURINACIONAL  DE  BOLIVIA
+EBRAS,Embajada  en  Brasil,BRA,REPÚBLICA  FEDERATIVA  DEL  BRASIL
+EBULG,Embajada  en  Bulgaria,BGR,REPÚBLICA  DE  BULGARIA
+ECANA,Embajada  en  Canadá,CAN,CANADÁ
+ECEUR,Embajada  ante  la  Unión  Europea,BEL,REINO DE BÉLGICA
+ECHES,Embajada  en  República  Checa,CZE,REPÚBLICA  CHECA
+ECHIN,Embajada  en  China,CHN,REPÚBLICA  POPULAR  DE  CHINA
+ECOLO,Embajada  en  Colombia,COL,REPÚBLICA  DE  COLOMBIA
+ECORE,Embajada  en  la  República  de  Corea,KOR,REPÚBLICA  DE  COREA
+ECUBA,Embajada  en  Cuba,CUB,REPÚBLICA  DE  CUBA
+EDINA,Embajada  en  Dinamarca,DNK,REINO  DE  DINAMARCA
+EDOMI,Embajada  en  República  Dominicana,DOM,REPÚBLICA  DOMINICANA
+EEARB,Embajada  en  Emiratos  Árabes  Unidos,ARE,EMIRATOS  ÁRABES  UNIDOS
+EECUA,Embajada  en  Ecuador,ECU,REPÚBLICA  DEL  ECUADOR
+EEEUU,Embajada  en  Estados  Unidos,USA,ESTADOS UNIDOS DE AMÉRICA
+EEGIP,Embajada  en  Egipto,EGY,REPÚBLICA  ÁRABE  DE  EGIPTO
+EEOEA,Misión  Permanente  ante  la  Organización  de  Estados  Americanos,USA,ESTADOS UNIDOS DE AMÉRICA
+EESPA,Embajada  en  España,ESP,REINO  DE  ESPAÑA
+EETIO,Embajada  en  Etiopía,ETH,REPÚBLICA  DEMOCRÁTICA  FEDERAL  DE  ETIOPÍA
+EFILI,Embajada  en  Filipinas,PHL,REPÚBLICA  DE  FILIPINAS
+EFINL,Embajada  en  Finlandia,FIN,REPÚBLICA  DE  FINLANDIA
+EFRAN,Embajada  en  Francia,FRA,REPÚBLICA  FRANCESA
+EFRUS,Embajada  en  Rusia,RUS,FEDERACIÓN  DE  RUSIA
+EGREC,Embajada  en  Grecia,GRC,REPÚBLICA  HELÉNICA
+EGUAT,Embajada  en  Guatemala,GTM,REPÚBLICA  DE  GUATEMALA
+EGUYA,Embajada  en  Guyana,GUY,REPÚBLICA  COOPERATIVA  DE  GUYANA
+EHAIT,Embajada  en  Haití,HTI,REPÚBLICA  DE  HAITÍ
+EHILE,Embajada  en  Chile,CHL,REPÚBLICA  DE  CHILE
+EHOND,Embajada  en  Honduras,HND,REPÚBLICA  DE  HONDURAS
+EINDI,Embajada  en  India,IND,REPÚBLICA  DE  LA  INDIA
+EIRAN,Embajada  en  Irán,IRN,REPÚBLICA  ISLÁMICA  DE  IRÁN
+EIRLA,Embajada  en  Irlanda,IRL,IRLANDA
+EISIA,Embajada  en  Indonesia,IDN,REPÚBLICA  DE  INDONESIA
+EISRA,Embajada  en  Israel,ISR,ESTADO  DE  ISRAEL
+EITAL,Embajada  en  Italia,ITA,REPÚBLICA  ITALIANA
+EJAMA,Embajada  en  Jamaica,JAM,JAMAICA
+EJAPO,Embajada  en  Japón,JPN,JAPÓN
+EKENY,Embajada  en  Kenya,KEN,REPÚBLICA  DE  KENYA
+EKUWA,Embajada  en  Kuwait,KWT,ESTADO  DE  KUWAIT
+ELBIA,Embajada  en  Libia,LBY,ESTADO  DE  LIBIA
+ELBNO,Embajada  en  Líbano,LBN,REPÚBLICA  LIBANESA
+ELUCI,Embajada  en  Santa  Lucía,LCA,SANTA  LUCÍA
+EMARR,Embajada  en  Marruecos,MAR,REINO  DE  MARRUECOS
+EMEXI,Embajada  en  México,MEX,ESTADOS  UNIDOS  MEXICANOS
+EMFAO,Misión  Permanente  ante  la  Organización  de  las  Naciones  Unidas  para  la  Alimentación  y  la  Agricultura,ITA,REPÚBLICA  ITALIANA
+EMOZA,Embajada  en  Mozambique,MOZ,REPÚBLICA  DE  MOZAMBIQUE
+EMSIA,Embajada  en  Malasia,MYS,MALASIA
+EMSUR,Representación  Permanente  para  MERCOSUR  y  ALADI,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+ENAUN,Representación  Permanente  ante  las  Naciones  Unidas,USA,ESTADOS UNIDOS DE AMÉRICA
+ENICA,Embajada  en  Nicaragua,NIC,REPÚBLICA  DE  NICARAGUA
+ENIGE,Embajada  en  Nigeria,NGA,REPÚBLICA  FEDERAL  DE  NIGERIA
+ENORU,Embajada  en  Noruega,NOR,REINO  DE  NORUEGA
+ENZEL,Embajada  en  Nueva  Zelandia,NZL,NUEVA  ZELANDIA
+EOIRS,Misión  Permanente  ante  los  Organismos  Internacionales  en  Ginebra,CHE,CONFEDERACIÓN SUIZA
+EPAKI,Embajada  en  Pakistán,PAK,REPÚBLICA  ISLÁMICA  DE  PAKISTÁN
+EPARA,Embajada  en  Paraguay,PRY,REPÚBLICA  DEL  PARAGUAY
+EPBAJ,Embajada  en  Holanda,NLD,REINO  DE  LOS  PAÍSES  BAJOS
+EPERU,Embajada  en  Perú,PER,REPÚBLICA  DEL  PERÚ
+EPNMA,Embajada  en  Panamá,PAN,REPÚBLICA  DE  PANAMÁ
+EPOLO,Embajada  en  Polonia,POL,REPÚBLICA  DE  POLONIA
+EPORT,Embajada  en  Portugal,PRT,REPÚBLICA  PORTUGUESA
+EQATR,Embajada  en  Qatar,QAT,ESTADO  DE  QATAR
+ERICA,Embajada  en  Costa  Rica,CRI,REPÚBLICA  DE  COSTA  RICA
+ERUMA,Embajada  en  Rumania,ROU,RUMANIA
+ERUNI,Embajada  en  Reino  Unido,GRB,REINO  UNIDO  DE  GRAN  BRETAÑA  E  IRLANDA  DEL  NORTE
+ESAFR,Embajada  en  Sudáfrica,ZAF,REPÚBLICA  DE  SUDÁFRICA
+ESALV,Embajada  en  El  Salvador,SLV,REPÚBLICA  DE  EL  SALVADOR
+ESENE,Embajada  en  Senegal,SEN,REPÚBLICA  DE  SENEGAL
+ESERB,Embajada  en  Serbia,SRB,REPÚBLICA  DE  SERBIA
+ESING,Embajada  en  Singapur,SGP,REPÚBLICA  DE  SINGAPUR
+ESSED,Representación  ante  la  Santa  Sede,VAT,SANTA  SEDE
+ESUEC,Embajada  en  Suecia,SWE,REINO  DE  SUECIA
+ESUIZ,Embajada  en  Suiza,CHE,CONFEDERACIÓN SUIZA
+ESURI,Embajada  en  Surinam,SUR,REPÚBLICA  DE  SURINAME
+ETAIL,Embajada  en  Tailandia,THA,REINO  DE  TAILANDIA
+ETRIA,Embajada  en  Austria,AUT,REPÚBLICA  DE  AUSTRIA
+ETRIN,Embajada  en  Trinidad  y  Tobago,TTO,REPÚBLICA  DE  TRINIDAD  Y  TOBAGO
+ETUNE,Embajada  en  Túnez,TUN,REPÚBLICA  TUNECINA
+ETURQ,Embajada  en  Türkiye,TUR,REPÚBLICA DE TÜRKİYE
+EUCRA,Embajada  en  Ucrania,UKR,UCRANIA
+EUNES,"Delegación  Permanente  ante  la  Organización  de  las  Naciones  Unidas  para  la  Educación, la  Ciencia  y  la  Cultura",FRA,REPÚBLICA  FRANCESA
+EUNGR,Embajada  en  Hungría,HUN,HUNGRÍA
+EURUG,Embajada  en  Uruguay  -  Representación  Permanente  para  MERCOSUR  y  ALADI,URY,REPÚBLICA  ORIENTAL  DEL  URUGUAY
+EVENE,Embajada  en  Venezuela,VEN,REPÚBLICA  BOLIVARIANA  DE  VENEZUELA
+EVIET,Embajada  en  Vietnam,VNM,REPÚBLICA  SOCIALISTA  DE  VIETNAM
+OCCAT,Oficina  de  Representación  Comercial  y  Cultural  en  Taiwan,CHN,REPÚBLICA  POPULAR  DE  CHINA
+REPAL,Oficina  de  Representación  en  el  Estado  de  Palestina,PSE,ESTADO  DE  PALESTINA
