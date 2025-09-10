@@ -3,8 +3,8 @@ import pandas as pd
 sedes = pd.read_csv("./TablasLimpias/lista-sedes.csv", usecols=["sede_id", "pais_iso_3"])
 print(sedes)
 
-secciones = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["sede_id", "redes_sociales"])
-secciones.insert(0, "id", range(1, len(secciones) + 1))
+secciones = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["sede_id"])
+secciones.insert(0, "seccion_id", range(1, len(secciones) + 1))
 print(secciones)
 
 paises = pd.read_csv("./TablasLimpias/pbi-per-capita.csv", usecols=["Country Code", "Country Name", "2023"])
@@ -15,13 +15,13 @@ print(paises)
 print(regiones)
 print(paises_regiones)
 
+redes = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["sede_id", "redes_sociales"])
 redes_rows = []
 id_counter = 1
-for _, row in secciones.iterrows():
+for _, row in redes.iterrows():
     if pd.notna(row["redes_sociales"]):
         urls = [u.strip() for u in row["redes_sociales"].split(" // ") if u.strip()]
         for url in urls:
-            # Identificar tipo de red
             if "facebook" in url.lower():
                 tipo = "facebook"
             elif "twitter" in url.lower():
@@ -33,12 +33,12 @@ for _, row in secciones.iterrows():
             else:
                 tipo = "otra"
             redes_rows.append({
-                "id_red": id_counter,
+                "red_id": id_counter,
                 "sede_id": row["sede_id"],
                 "tipo": tipo,
                 "url": url
             })
             id_counter += 1
 
-redes = pd.DataFrame(redes_rows, columns=["id_red", "sede_id", "tipo", "url"])
+redes = pd.DataFrame(redes_rows, columns=["red_id", "sede_id", "tipo", "url"])
 print(redes)
