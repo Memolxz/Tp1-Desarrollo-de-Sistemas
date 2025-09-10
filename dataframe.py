@@ -1,19 +1,15 @@
 import pandas as pd
 
 sedes = pd.read_csv("./TablasLimpias/lista-sedes.csv", usecols=["sede_id", "pais_iso_3"])
-print(sedes)
 
-secciones = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["sede_id"])
+secciones = pd.read_csv("./TablasLimpias/lista-secciones.csv", usecols=["sede_id"])
+secciones = secciones.sort_values(by="sede_id").reset_index(drop=True)
 secciones.insert(0, "seccion_id", range(1, len(secciones) + 1))
 print(secciones)
-
 paises = pd.read_csv("./TablasLimpias/pbi-per-capita.csv", usecols=["Country Code", "Country Name", "2023"])
 regiones = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["region_geografica", "pais_iso_3"])
 paises_regiones = pd.merge(paises, regiones, left_on="Country Code", right_on="pais_iso_3", how="inner")
 paises_regiones = paises_regiones[["Country Code", "Country Name", "2023", "region_geografica"]]
-print(paises)
-print(regiones)
-print(paises_regiones)
 
 redes = pd.read_csv("./TablasLimpias/lista-sedes-datos.csv", usecols=["sede_id", "redes_sociales"])
 redes_rows = []
@@ -39,6 +35,8 @@ for _, row in redes.iterrows():
                 "url": url
             })
             id_counter += 1
-
 redes = pd.DataFrame(redes_rows, columns=["red_id", "sede_id", "tipo", "url"])
-print(redes)
+
+# Ejercicio 7) a.
+info_pais = pd.merge(paises_regiones, sedes, left_on="Country Code", right_on="pais_iso_3")
+print(info_pais)
