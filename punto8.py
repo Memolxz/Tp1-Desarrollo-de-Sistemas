@@ -37,10 +37,11 @@ plt.savefig("Graficos/8a.png", dpi=300)
 plt.close()
 
 # 8 b
-pbi_sedes = sedes_pais.dropna(subset=["pbi_2023"])
+paises_con_delegacion = pd.Series(sedes["codigo_pais"].unique())
+pbi_paises = pais[pais["codigo_pais"].isin(paises_con_delegacion)].dropna(subset=["pbi_2023"]).copy()
 
 orden_regiones = (
-    pbi_sedes.groupby("region")["pbi_2023"]
+    pbi_paises.groupby("region")["pbi_2023"]
     .median()
     .sort_values()
     .index
@@ -48,16 +49,16 @@ orden_regiones = (
 
 plt.figure(figsize=(10,6))
 sns.boxplot(
-    data=pbi_sedes, 
-    x="region", 
-    y="pbi_2023", 
-    order=orden_regiones, 
+    data=pbi_paises,
+    x="region",
+    y="pbi_2023",
+    order=orden_regiones,
     palette="Set2"
 )
 plt.xticks(rotation=45, ha="right")
-plt.title("Distribucion del PBI per capita por region", fontsize=14, weight="bold")
-plt.xlabel("Region geografica")
-plt.ylabel("PBI per capita 2023")
+plt.title("PBI per cápita 2023 por región", fontsize=12, weight="bold")
+plt.xlabel("Región geográfica", fontsize=10)
+plt.ylabel("PBI per cápita 2023 (USD)", fontsize=10)
 plt.tight_layout()
 plt.savefig("Graficos/8b.png", dpi=300)
 plt.close()
