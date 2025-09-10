@@ -1,41 +1,28 @@
-# punto7.py
 import pandas as pd
 import os
 from pandasql import sqldf
 
-# Función helper para ejecutar SQL sobre pandas
+# para ejecutar las querys con pandasql 
 pysqldf = lambda q: sqldf(q, globals())
 
-# =========================
-# Crear carpeta de reportes
-# =========================
 os.makedirs("Reportes", exist_ok=True)
 
-# =========================
-# Cargar tablas limpias
-# =========================
+# importar los datos
 pais = pd.read_csv("modelos/pais.csv")
 sedes = pd.read_csv("modelos/sedes.csv")
 secciones = pd.read_csv("modelos/secciones.csv")
 redes = pd.read_csv("modelos/redes.csv")
 
-# =========================
-# Asegurar tipos consistentes
-# =========================
-sedes['sede_id'] = sedes['sede_id'].astype(str)
-redes['sede_id'] = redes['sede_id'].astype(str)
-sedes['codigo_pais'] = sedes['codigo_pais'].astype(str)
-pais['codigo_pais'] = pais['codigo_pais'].astype(str)
-
-# -------------------------
-# 7a) País, cantidad de sedes, promedio secciones por sede, PBI 2023
-# -------------------------
+# 7 a
 query_a = """
 SELECT
   p.codigo_pais,
   p.nombre AS pais,
   COUNT(DISTINCT s.sede_id) AS cantidad_sedes,
-  CAST(COUNT(sec.seccion_id) AS FLOAT) / COUNT(DISTINCT s.sede_id) AS promedio_secciones,
+  ROUND(
+    CAST(COUNT(sec.seccion_id) AS FLOAT) / COUNT(DISTINCT s.sede_id),
+    2
+  ) AS promedio_secciones,
   p.pbi_2023
 FROM sedes s
 JOIN pais p ON s.codigo_pais = p.codigo_pais
@@ -47,9 +34,7 @@ reporte_a = pysqldf(query_a)
 reporte_a.to_csv("Reportes/reporte_7a.csv", index=False)
 print("Generado Reportes/reporte_7a.csv")
 
-# -------------------------
-# 7b) Agrupar por región
-# -------------------------
+# 7 b
 query_b = """
 WITH paises_region AS (
   SELECT DISTINCT p.codigo_pais, p.region, p.pbi_2023
@@ -76,9 +61,7 @@ reporte_b = pysqldf(query_b)
 reporte_b.to_csv("Reportes/reporte_7b.csv", index=False)
 print("Generado Reportes/reporte_7b.csv")
 
-# -------------------------
-# 7c) Variabilidad de redes sociales por país
-# -------------------------
+# 7 c
 query_c = """
 SELECT
   p.nombre AS pais,
@@ -93,9 +76,8 @@ reporte_c = pysqldf(query_c)
 reporte_c.to_csv("Reportes/reporte_7c.csv", index=False)
 print("Generado Reportes/reporte_7c.csv")
 
-# -------------------------
-# 7d) Info de redes: país, sede, red, url (solo sedes con redes)
-# -------------------------
+
+# 7 d
 query_d = """
 SELECT
   p.nombre AS pais,
@@ -109,4 +91,4 @@ ORDER BY pais ASC, s.sede_id ASC, red_social ASC, r.url ASC;
 """
 reporte_d = pysqldf(query_d)
 reporte_d.to_csv("Reportes/reporte_7d.csv", index=False)
-print("Generado Reportes/reporte_7d.csv (solo sedes con redes)")
+print("Generado Reportes/reporte_7d.csv")

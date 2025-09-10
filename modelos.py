@@ -1,14 +1,15 @@
 import pandas as pd
 import os
 
-os.makedirs("modelos", exist_ok=True)
+os.makedirs("Modelos", exist_ok=True)
 
+# importar los datos
 pbi = pd.read_csv("TablasLimpias/pbi-per-capita.csv")
 sedes = pd.read_csv("TablasLimpias/lista-sedes.csv")
 sedes_datos = pd.read_csv("TablasLimpias/lista-sedes-datos.csv")
 secciones_orig = pd.read_csv("TablasLimpias/lista-secciones.csv")
 
-
+#crear las datafra,es
 df_pbi = pbi[["Country Code", "Country Name", "2023"]].rename(columns={
     "Country Code": "codigo_pais",
     "Country Name": "nombre",
@@ -40,6 +41,8 @@ for _, row in secciones_orig.iterrows():
     id_seccion += 1
 df_secciones = pd.DataFrame(secciones_rows)
 
+
+# separar los tipos de redes
 redes_rows = []
 id_red = 1
 for _, row in sedes_datos.iterrows():
@@ -55,6 +58,8 @@ for _, row in sedes_datos.iterrows():
                 tipo = "instagram"
             elif "youtube" in url_low:
                 tipo = "youtube"
+            elif "linkedin" in url_low:
+                tipo = "linkedin"
             else:
                 tipo = "otra"
 
@@ -68,7 +73,7 @@ for _, row in sedes_datos.iterrows():
 
 df_redes = pd.DataFrame(redes_rows)
 
-df_pais.to_csv("modelos/pais.csv", index=False)
-df_sedes.to_csv("modelos/sedes.csv", index=False)
-df_secciones.to_csv("modelos/secciones.csv", index=False)
-df_redes.to_csv("modelos/redes.csv", index=False)
+df_pais.to_csv("Modelos/pais.csv", index=False)
+df_sedes.to_csv("Modelos/sedes.csv", index=False)
+df_secciones.to_csv("Modelos/secciones.csv", index=False)
+df_redes.to_csv("Modelos/redes.csv", index=False)

@@ -7,13 +7,13 @@ red_id,sede_id,nombre,url
 6,CAREN,facebook,https://www.facebook.com/profile.php?id=100014152878593
 7,CATLA,instagram,https://www.instagram.com/ARGenAtlanta
 8,CATLA,facebook,https://www.facebook.com/ARGenAtlanta
-9,CATLA,otra,https://www.linkedin.com/company/ARGenAtlanta
+9,CATLA,linkedin,https://www.linkedin.com/company/ARGenAtlanta
 10,CATLA,twitter,https://www.twitter.com/ARGenAtlanta
 11,CBARC,facebook,https://www.facebook.com/ArgEnBarcelona/
 12,CBARC,twitter,https://www.twitter.com/argenbarcelona
 13,CBARC,instagram,https://www.instagram.com/argenbarcelona/
 14,CBARC,youtube,https://www.youtube.com/@consuladoargentinoenbarcel2664
-15,CBARC,otra,https://www.linkedin.com/company/consulado-y-centro-de-promoci%C3%B3n-de-la-republica-argentina-en-barcelona
+15,CBARC,linkedin,https://www.linkedin.com/company/consulado-y-centro-de-promoci%C3%B3n-de-la-republica-argentina-en-barcelona
 16,CBELO,facebook,https://www.facebook.com/ArgentinaEnBeloHorizonte/
 17,CBELO,twitter,https://www.twitter.com/consgralbelo
 18,CBELO,instagram,https://www.instagram.com/consgralbelo/
@@ -71,7 +71,7 @@ red_id,sede_id,nombre,url
 70,CNYOR,twitter,https://www.twitter.com/ARGenNewYork
 71,CNYOR,instagram,https://www.instagram.com/argennewyork/
 72,CNYOR,youtube,https://www.youtube.com/@ARGenNewYork
-73,CNYOR,otra,https://www.linkedin.com/company/argennewyork
+73,CNYOR,linkedin,https://www.linkedin.com/company/argennewyork
 74,CPMON,facebook,https://www.facebook.com/ArgentinaEnPuertoMontt/
 75,CRECI,facebook,https://www.facebook.com/ArgentinaEnBrasilRecife
 76,CRECI,instagram,https://www.instagram.com/consuladoargentinorecife
@@ -120,7 +120,7 @@ red_id,sede_id,nombre,url
 119,EAZER,instagram,https://www.instagram.com/embargentinaaz
 120,EAZER,twitter,https://www.twitter.com/ARGEnAzer
 121,EBANG,instagram,https://www.instagram.com/embargenbgd
-122,EBANG,otra,https://www.linkedin.com/showcase/argenbangladesh/
+122,EBANG,linkedin,https://www.linkedin.com/showcase/argenbangladesh/
 123,EBARB,facebook,https://www.facebook.com/ArgentinaEnBarbados/
 124,EBELG,facebook,https://www.facebook.com/ArgentinaEnBelgica/
 125,EBELG,instagram,https://www.instagram.com/argenbelgica/
@@ -136,9 +136,9 @@ red_id,sede_id,nombre,url
 135,ECANA,youtube,https://www.youtube.com/channel/UC77DGXZ2ppExRtV4WS4IV-A
 136,ECANA,twitter,https://www.twitter.com/ArginCanada
 137,ECANA,instagram,https://www.instagram.com/argentinaincanada/
-138,ECANA,otra,https://www.linkedin.com/company/argentinaincanada
+138,ECANA,linkedin,https://www.linkedin.com/company/argentinaincanada
 139,ECEUR,facebook,https://www.facebook.com/ARGanteUE
-140,ECEUR,otra,https://www.linkedin.com/company/arganteue
+140,ECEUR,linkedin,https://www.linkedin.com/company/arganteue
 141,ECEUR,twitter,https://www.twitter.com/ARGanteUE
 142,ECEUR,youtube,https://www.youtube.com/@ARGanteUE
 143,ECEUR,instagram,https://www.instagram.com/arganteue/
@@ -154,7 +154,7 @@ red_id,sede_id,nombre,url
 153,ECUBA,instagram,https://www.instagram.com/argentinaencuba/
 154,EDINA,facebook,https://www.facebook.com/EmbajadadeArgentinaenDinamarca/
 155,EDINA,instagram,https://www.instagram.com/argentinaindenmark?igsh=dTI4cDN6NHFpYWM0
-156,EDINA,otra,https://www.linkedin.com/company/embajada-de-la-rep-blica-argentina-en-dinamarca
+156,EDINA,linkedin,https://www.linkedin.com/company/embajada-de-la-rep-blica-argentina-en-dinamarca
 157,EDOMI,facebook,https://www.facebook.com/ArgentinaEnRepublicaDominicana/
 158,EDOMI,instagram,https://www.instagram.com/argentinaenrd/
 159,EEARB,facebook,https://www.facebook.com/ArgentinaEnEmiratosArabesUnidos
@@ -166,7 +166,7 @@ red_id,sede_id,nombre,url
 165,EEEUU,instagram,https://www.instagram.com/ARGinUSA/
 166,EEEUU,otra,https://www.flickr.com/photos/ARGinUSA/
 167,EEEUU,youtube,https://www.youtube.com/ARGinUSA
-168,EEEUU,otra,www.linkedin.com/in/ARGinUSA
+168,EEEUU,linkedin,www.linkedin.com/in/ARGinUSA
 169,EEGIP,instagram,https://www.instagram.com/argenegipto/
 170,EEGIP,twitter,https://www.twitter.com/ARGenEgipto
 171,EEGIP,facebook,https://www.facebook.com/ArgentinaenEgipto
@@ -177,7 +177,7 @@ red_id,sede_id,nombre,url
 176,EESPA,twitter,https://www.twitter.com/ARGenesp
 177,EESPA,facebook,https://www.facebook.com/argenespa/
 178,EESPA,instagram,https://www.instagram.com/argenespa/
-179,EESPA,otra,https://www.linkedin.com/company/83543239/admin/dashboard/
+179,EESPA,linkedin,https://www.linkedin.com/company/83543239/admin/dashboard/
 180,EETIO,facebook,https://www.facebook.com/ArgEnEtiopia/
 181,EETIO,twitter,https://www.twitter.com/arethiopia
 182,EETIO,instagram,https://www.instagram.com/embaargenetiopia/
@@ -245,7 +245,7 @@ red_id,sede_id,nombre,url
 244,ENORU,facebook,https://www.facebook.com/ArgentinaEnNoruega/
 245,ENORU,instagram,https://www.instagram.com/arginnorway/
 246,ENORU,twitter,https://www.twitter.com/arginnorway?lang=en
-247,ENORU,otra,https://www.linkedin.com/company/embajada-de-la-rep%C3%BAblica-argentina-ante-el-reino-de-noruega-argentine-embassy-to-norway
+247,ENORU,linkedin,https://www.linkedin.com/company/embajada-de-la-rep%C3%BAblica-argentina-ante-el-reino-de-noruega-argentine-embassy-to-norway
 248,ENZEL,twitter,https://www.twitter.com/argennz
 249,ENZEL,instagram,https://www.instagram.com/argentinaennuevazelandia
 250,ENZEL,facebook,https://www.facebook.com/ArgentinaenNuevaZelandia/
@@ -291,7 +291,7 @@ red_id,sede_id,nombre,url
 290,ESSED,youtube,https://www.youtube.com/c/EmbajadaArgentinaantelaSantaSede
 291,ESSED,facebook,https://www.facebook.com/ArgEnSantaSede
 292,ESSED,instagram,https://www.instagram.com/argensantasede/
-293,ESUEC,otra,https://www.linkedin.com/company/argentinainsweden/
+293,ESUEC,linkedin,https://www.linkedin.com/company/argentinainsweden/
 294,ESUEC,facebook,https://www.facebook.com/arginsweden/
 295,ESUEC,instagram,https://www.instagram.com/arginsweden/
 296,ETAIL,facebook,https://www.facebook.com/Embajada.Argentina.Tailandia/
