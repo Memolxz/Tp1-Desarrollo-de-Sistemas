@@ -41,8 +41,8 @@ WITH paises_region AS (
   FROM pais p
   JOIN sedes s ON p.codigo_pais = s.codigo_pais
 ),
-sedes_region AS (
-  SELECT p.region, COUNT(s.sede_id) AS cantidad_sedes
+paises_por_region AS (
+  SELECT p.region, COUNT(DISTINCT p.codigo_pais) AS cantidad_paises
   FROM pais p
   JOIN sedes s ON p.codigo_pais = s.codigo_pais
   GROUP BY p.region
@@ -52,9 +52,9 @@ pbi_region AS (
   FROM paises_region
   GROUP BY region
 )
-SELECT sr.region, sr.cantidad_sedes, pr.promedio_pbi
-FROM sedes_region sr
-JOIN pbi_region pr ON sr.region = pr.region
+SELECT prg.region, prg.cantidad_paises, pr.promedio_pbi
+FROM paises_por_region prg
+JOIN pbi_region pr ON prg.region = pr.region
 ORDER BY pr.promedio_pbi DESC;
 """
 reporte_b = pysqldf(query_b)
